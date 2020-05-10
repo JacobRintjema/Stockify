@@ -12,7 +12,7 @@ database with tables"""
 
 class CopyToDatabase:
     # Show this when the user types help
-    help = "Loads data from trial.csv into our stock mode"
+    help = "Loads data from trial.csv into our stock model"
 
     def handle(*args, **options):
         for row in DictReader(open('./trial.csv')):
